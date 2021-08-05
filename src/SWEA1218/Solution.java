@@ -28,25 +28,21 @@ public class Solution {
       
       boolean isValid = true;
       Stack<String> stack = new Stack<>();
+      
       for (String each : brackets) {
-        if (!stack.isEmpty()) {
+        if (closingBracketPair.containsKey(each)) {
+          // 닫히는 괄호인 경우
           String top = stack.peek();
-          
-          if (closingBracketPair.containsKey(each)) {
-            // 닫히는 괄호인 경우
 
-            if (top.equals(closingBracketPair.get(each))) {
-              // stack의 최상단에 같은 페어의 괄호가 있으면 상쇄함
-              stack.pop();
-            } else {
-              // 닫는 괄호인데 페어가 맞지 않는다? 유효하지 않은 형태가 됨
-              isValid = false;
-              break;
-            }
-
+          if (top.equals(closingBracketPair.get(each))) {
+            // stack의 최상단에 같은 페어의 괄호가 있으면 상쇄함
+            stack.pop();
           } else {
-            stack.push(each);
+            // 닫는 괄호인데 페어가 맞지 않는다? 유효하지 않은 형태가 됨
+            isValid = false;
+            break;
           }
+
         } else {
           stack.push(each);
         }
