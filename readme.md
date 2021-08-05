@@ -8,4 +8,4 @@ Javascript 코드는 실질적으로 제출을 할 수 없어 모든 테스트�
 
 ## 풀이 내역
 
-- `1218. 괄호 짝짓기` - [Java](src\SWEA1218\Solution.java), 
+- `1218. 괄호 짝짓기` - [Java](src\SWEA1218\Solution.java), [Javascript](src\SWEA1218\Solution.js)
