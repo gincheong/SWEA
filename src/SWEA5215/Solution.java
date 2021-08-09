@@ -55,10 +55,9 @@ public class Solution {
     if (totalCalorie > maxCalorie) {
       // 칼로리 제한을 넘으면 답이 될 수 없음
       return;
-    } else {
-      maxTaste = Math.max(maxTaste, totalTaste);
     }
 
+    maxTaste = Math.max(maxTaste, totalTaste);
     if (idx >= ingredients.length) {
       // 모든 재료 다 따졌으면 종료
       return;
