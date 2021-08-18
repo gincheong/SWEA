@@ -8,6 +8,7 @@ Javascript 코드는 실질적으로 제출을 할 수 없어 모든 테스트�
 
 ## 풀이 내역
 
+- `1208. Flatten` - [Java](src\SWEA1208\Solution.java), [Javascript](src\SWEA1208\Solution.js)
 - `1218. 괄호 짝짓기` - [Java](src\SWEA1218\Solution.java), [Javascript](src\SWEA1218\Solution.js)
 - `1225. 암호 생성기` - [Java](src\SWEA1225\Solution.java), [Javascript](src\SWEA1225\Solution.js)
 - `1228. 암호문 - 1` - [Java](src\SWEA1228\Solution.java), [Javascript](src\SWEA1228\Solution.js)
