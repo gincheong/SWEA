@@ -15,3 +15,4 @@ Javascript 코드는 실질적으로 제출을 할 수 없어 모든 테스트�
 - `1861. 정사각형 방` - [Java](src\SWEA1861\Solution.java), [Javascript](src\SWEA1861\Solution.js)
 - `3499. 퍼펙트 셔플` - [Java](src\SWEA3499\Solution.java), [Javascript](src\SWEA3499\Solution.js)
 - `5215. 햄버거 다이어트` - [Java](src\SWEA5215\Solution.java), [Javascript](src\SWEA5215\Solution.js)
+- `5644. 무선 충전` - [Java](src\SWEA5644\Solution.java), [Javascript](src\SWEA5644\Solution.js)
